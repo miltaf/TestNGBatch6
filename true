@@ -1,0 +1,127 @@
+[1590715159.204][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 1674
+[1590715159.204][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590715159.874][INFO]: [7597c48d2c6442507dd0b9cee23a9770] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1590715159.876][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590715159.876][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590715159.880][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Mahbub\AppData\Local\Temp\scoped_dir50064_59107091\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Mahbub\AppData\Local\Temp\scoped_dir50064_629031692" data:,
+[1590715160.461][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590715162.475][INFO]: [7597c48d2c6442507dd0b9cee23a9770] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\Mahbub\\AppData\\Local\\Temp\\scoped_dir50064_629031692"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55559"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7597c48d2c6442507dd0b9cee23a9770"
+}
+[1590715162.543][INFO]: [7597c48d2c6442507dd0b9cee23a9770] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1590715162.543][INFO]: [7597c48d2c6442507dd0b9cee23a9770] RESPONSE SetTimeouts
+[1590715162.548][INFO]: [7597c48d2c6442507dd0b9cee23a9770] COMMAND Navigate {
+   "url": "https://www.saucedemo.com/"
+}
+[1590715162.548][INFO]: Waiting for pending navigations...
+[1590715162.553][INFO]: Done waiting for pending navigations. Status: ok
+[1590715162.700][INFO]: Waiting for pending navigations...
+[1590715162.867][INFO]: Done waiting for pending navigations. Status: ok
+[1590715162.867][INFO]: [7597c48d2c6442507dd0b9cee23a9770] RESPONSE Navigate

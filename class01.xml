@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite class01">
+ <!-- 1stWay -->
+  <test name="Test">
+    <classes>
+      <class name="com.class01.TaskTwo"/>
+      <class name="com.class01.TestNGDemo"/>
+      <class name="com.class01.TitleLogoAndLoginValidation"/>
+      <class name="com.class01.DifferentAnnotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
